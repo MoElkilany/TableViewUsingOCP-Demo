@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A1C129327099F4D001D8459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C129227099F4D001D8459 /* AppDelegate.swift */; };
-		0A1C129527099F4D001D8459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C129427099F4D001D8459 /* SceneDelegate.swift */; };
 		0A1C129727099F4D001D8459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C129627099F4D001D8459 /* ViewController.swift */; };
-		0A1C129A27099F4D001D8459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1C129827099F4D001D8459 /* Main.storyboard */; };
 		0A1C129C27099F4E001D8459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1C129B27099F4E001D8459 /* Assets.xcassets */; };
 		0A1C129F27099F4E001D8459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1C129D27099F4E001D8459 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		0A1C128F27099F4D001D8459 /* TableViewUsingOCP-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewUsingOCP-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1C129227099F4D001D8459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A1C129427099F4D001D8459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A1C129627099F4D001D8459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A1C129927099F4D001D8459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A1C129B27099F4E001D8459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1C129E27099F4E001D8459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1C12A027099F4E001D8459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +52,45 @@
 		0A1C129127099F4D001D8459 /* TableViewUsingOCP-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				0A1C129227099F4D001D8459 /* AppDelegate.swift */,
-				0A1C129427099F4D001D8459 /* SceneDelegate.swift */,
-				0A1C129627099F4D001D8459 /* ViewController.swift */,
-				0A1C129827099F4D001D8459 /* Main.storyboard */,
-				0A1C129B27099F4E001D8459 /* Assets.xcassets */,
-				0A1C129D27099F4E001D8459 /* LaunchScreen.storyboard */,
-				0A1C12A027099F4E001D8459 /* Info.plist */,
+				0A1C12A92709A09A001D8459 /* Board */,
+				0A1C12A82709A088001D8459 /* Sences */,
+				0A1C12A72709A072001D8459 /* Resources */,
+				0A1C12A62709A017001D8459 /* Core */,
 			);
 			path = "TableViewUsingOCP-Demo";
+			sourceTree = "<group>";
+		};
+		0A1C12A62709A017001D8459 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A1C129227099F4D001D8459 /* AppDelegate.swift */,
+				0A1C12A027099F4E001D8459 /* Info.plist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0A1C12A72709A072001D8459 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A1C129B27099F4E001D8459 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A1C12A82709A088001D8459 /* Sences */ = {
+			isa = PBXGroup;
+			children = (
+				0A1C129627099F4D001D8459 /* ViewController.swift */,
+			);
+			path = Sences;
+			sourceTree = "<group>";
+		};
+		0A1C12A92709A09A001D8459 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				0A1C129D27099F4E001D8459 /* LaunchScreen.storyboard */,
+			);
+			path = Board;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +152,6 @@
 			files = (
 				0A1C129F27099F4E001D8459 /* LaunchScreen.storyboard in Resources */,
 				0A1C129C27099F4E001D8459 /* Assets.xcassets in Resources */,
-				0A1C129A27099F4D001D8459 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +164,12 @@
 			files = (
 				0A1C129727099F4D001D8459 /* ViewController.swift in Sources */,
 				0A1C129327099F4D001D8459 /* AppDelegate.swift in Sources */,
-				0A1C129527099F4D001D8459 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A1C129827099F4D001D8459 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A1C129927099F4D001D8459 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A1C129D27099F4E001D8459 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUMG9R88LL;
-				INFOPLIST_FILE = "TableViewUsingOCP-Demo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TableViewUsingOCP-Demo/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TableViewUsingOCP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUMG9R88LL;
-				INFOPLIST_FILE = "TableViewUsingOCP-Demo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TableViewUsingOCP-Demo/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TableViewUsingOCP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
