@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTableVC.swift
 //  TableViewUsingOCP-Demo
 //
 //  Created by Mohamed Elkilany on 03/10/2021.
@@ -7,13 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainTableVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .orange
     }
-
-
 }
-
